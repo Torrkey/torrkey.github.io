@@ -1,5 +1,12 @@
 h1 {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 40px;
-    color: #9eb6e3; text-align: center;
+    font-size: 3em;
+    color: #3e5888; text-align: center;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.875em;
+    text-align: left;
+    color: #4380b6
 }
