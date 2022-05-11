@@ -1,12 +1,31 @@
-h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 3em;
-    color: #3e5888; text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+    overflow-y: scroll;
+    font-family: robo, sans-serif;
+    background-color: whitesmoke;
+    color: #3f3f3f;
 }
 
-h2 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 1.875em;
-    text-align: left;
-    color: #4380b6
+hr{
+    height: 2px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px 350px;
+    column-gap: 8%;
+    justify-content: center;
+    margin: 5rem;
+    font-size: 20px;
+
+}
+
+header{
+    font-size: 60px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 40px;
 }
