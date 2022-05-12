@@ -29,3 +29,27 @@ header{
     text-align: center;
     margin-top: 40px;
 }
+
+#linkedinImage{
+    transition: all 0.2s ease-in-out;
+}
+
+#linkedinImage:hover{
+    transform: scale(1.1);
+}
+
+#githubImage{
+    transition: all 0.2s ease-in-out;
+}
+
+#githubImage:hover{
+    transform: scale(1.1);
+}
+
+#OSC_preview{
+    transition: all 0.2s ease-in-out;
+}
+
+#OSC_preview:hover{
+    transform: scale(1.1);
+}
